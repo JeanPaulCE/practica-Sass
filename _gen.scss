@@ -20,15 +20,15 @@ $m: 1.3vw;
 $l: 2.5vw;
 $xl: 3.5vw;
 
-$colors: (
+$-colors: (
   ("white", $bg),
   ("black", $title-color),
   ("red", $red),
   ("txt-red", $txt-red)
 );
-$size: (("s", $s), ("m", $m), ("l", $l), ("xl", $xl));
+$-size: (("s", $s), ("m", $m), ("l", $l), ("xl", $xl));
 
-$fonts: (
+$-fonts: (
   ("Poppins-b", 700, "Poppins"),
   ("Poppins-m", 500, "Poppins"),
   ("Raleway", 400, "Raleway"),
@@ -47,14 +47,14 @@ $fonts: (
   }
 }
 
-@each $var in $fonts {
+@each $var in $-fonts {
   .text-#{nth($var,1)} {
     font-family: nth($var, 3);
     font-weight: nth($var, 2);
   }
 }
 
-@each $var in $colors {
+@each $var in $-colors {
   .c-#{nth($var,1)} {
     color: nth($var, 2);
   }
@@ -63,7 +63,7 @@ $fonts: (
   }
 }
 
-@each $var in $size {
+@each $var in $-size {
   .#{nth($var,1)} {
     font-size: nth($var, 2);
   }

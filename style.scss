@@ -1,5 +1,4 @@
-@use "gen";
-
+@use "gen" as g;
 .contend {
   height: 88vh;
   width: 88vw;
@@ -25,7 +24,7 @@
         position: absolute;
         width: 0.6vw;
         height: 33vh;
-        background-color: $red;
+        background-color: g.$red;
         left: 5vw;
       }
       .main-text > * {

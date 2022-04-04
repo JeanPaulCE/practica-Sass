@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Raleway&display=swap');
+@font-face {
+    font-family: 'Futura Bold';
+    src: url('/Futura Bold font.ttf') format('truetype');
+    font-style: 700;
+    font-weight: bold;
+}
+
+
+$bg:#fff;
+$text-color:rgb(0, 0, 0);
+
+$s:1em;
+$m:2.5em;
+$l:4em;
+$xl:6em;
+
+$fonts:("Poppins-b": 700, "Poppins-m": 500, "Raleway":400,"futura-b":700);
+
+// @media (prefers-color-scheme: dark) {
+//     $bg:rgb(0, 0, 0);
+//     $text-color:rgb(255, 255, 255);
+// }
+
+@each $var in $fonts {
+    @mixin text-#{$var}($size) {
+        font-family: $var;
+        font-size: $size;  //rem es recomendado para font-size
+        font-weight: bold;
+        color: $text-color;
+    }    
+}
+

@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Raleway:wght@400;700&display=swap");
+@font-face {
+  font-family: "Futura Bold";
+  src: url("/Futura Bold font.ttf") format("truetype");
+  font-style: 700;
+  font-weight: bold;
+}
+
+html,
+* {
+  margin: 0;
+  font-size: 100%;
+}
+
+button {
+  border: none;
+  padding: 1em 1.5em;
+  border-radius: 2em;
+  -webkit-box-shadow: 2px 5px 7px #00000029;
+          box-shadow: 2px 5px 7px #00000029;
+  margin-right: 1vw;
+}
+
+button:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.text-Poppins-b {
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+.text-Poppins-m {
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.text-Raleway {
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+.text-Raleway-b {
+  font-family: "Raleway";
+  font-weight: 700;
+}
+
+.text-futura-b {
+  font-family: "Futura Bold";
+  font-weight: 700;
+}
+
+.c-white {
+  color: #fff;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.c-black {
+  color: black;
+}
+
+.bg-black {
+  background: black;
+}
+
+.c-red {
+  color: #d85a5a;
+}
+
+.bg-red {
+  background: #d85a5a;
+}
+
+.c-txt-red {
+  color: #9e7474;
+}
+
+.bg-txt-red {
+  background: #9e7474;
+}
+
+.s {
+  font-size: 0.5vw;
+}
+
+.m {
+  font-size: 1.3vw;
+}
+
+.l {
+  font-size: 2.5vw;
+}
+
+.xl {
+  font-size: 3.5vw;
+}
+
+.grid-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-6 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-7 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.g-start-1 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+}
+
+.g-end-1 {
+  grid-column-end: 1;
+}
+
+.g-start-2 {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+}
+
+.g-end-2 {
+  grid-column-end: 2;
+}
+
+.g-start-3 {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+}
+
+.g-end-3 {
+  grid-column-end: 3;
+}
+
+.g-start-4 {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+}
+
+.g-end-4 {
+  grid-column-end: 4;
+}
+
+.g-start-5 {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+}
+
+.g-end-5 {
+  grid-column-end: 5;
+}
+
+.g-start-6 {
+  -ms-grid-column: 6;
+      grid-column-start: 6;
+}
+
+.g-end-6 {
+  grid-column-end: 6;
+}
+
+.g-start-7 {
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+}
+
+.g-end-7 {
+  grid-column-end: 7;
+}
+
+.contend {
+  height: 88vh;
+  width: 88vw;
+  padding: 6vh 6vw;
+  overflow: hidden;
+}
+
+.contend .grid-2 div .cart {
+  display: inline-block;
+  position: relative;
+  padding: 1.5em 1em 1em 1em;
+  border-radius: 1.5em 1.5em 3.5em 1.5em;
+  height: 3.5em;
+  background-color: #000;
+  left: 40vw;
+}
+
+.contend .grid-5 .g-start-1 .decorator {
+  display: inline-block;
+  position: absolute;
+  width: 0.6vw;
+  height: 33vh;
+  background-color: #d85a5a;
+  left: 5vw;
+}
+
+.contend .grid-5 .g-start-1 .main-text > * {
+  margin: 1vh 0vh;
+}
+
+.contend .grid-5 .g-start-1 .buttoms-content {
+  margin: 5vh 0 2vh 0;
+}
+
+.contend .grid-5 .g-start-1 div {
+  margin-top: 1vh;
+}
+
+.contend .grid-5 .g-start-1 div h2 {
+  width: 20vw;
+}
+
+.contend .grid-5 .g-start-1 div h3 {
+  width: 115%;
+}
+
+.contend .grid-5 .g-start-1 div p {
+  width: 130%;
+}
+
+.contend .grid-5 .g-start-1 div svg {
+  position: relative;
+  left: 6vw;
+}
+
+.contend .grid-5 .g-end-5 svg {
+  position: relative;
+  top: -9vh;
+  left: 5vw;
+  width: 50vw;
+  height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,10 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Raleway:wght@400;700&display=swap");
-@font-face {
-  font-family: "Futura Bold";
-  src: url("/Futura Bold font.ttf") format("truetype");
-  font-style: 700;
-  font-weight: bold;
-}
 html,
 * {
   margin: 0;
@@ -28,14 +21,6 @@ $-colors: (
 );
 $-size: (("s", $s), ("m", $m), ("l", $l), ("xl", $xl));
 
-$-fonts: (
-  ("Poppins-b", 700, "Poppins"),
-  ("Poppins-m", 500, "Poppins"),
-  ("Raleway", 400, "Raleway"),
-  ("Raleway-b", 700, "Raleway"),
-  ("futura-b", 700, "Futura Bold")
-);
-
 %button {
   border: none;
   padding: 1em 1.5em;
@@ -44,13 +29,6 @@ $-fonts: (
   margin-right: 1vw;
   &:active {
     box-shadow: none;
-  }
-}
-
-@each $var in $-fonts {
-  .text-#{nth($var,1)} {
-    font-family: nth($var, 3);
-    font-weight: nth($var, 2);
   }
 }
 

@@ -1,10 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Raleway:wght@400;700&display=swap");
-@font-face {
-  font-family: "Futura Bold";
-  src: url("/Futura Bold font.ttf") format("truetype");
-  font-style: 700;
-  font-weight: bold;
-}
 html,
 * {
   margin: 0;
@@ -20,31 +14,6 @@ button {
 }
 button:active {
   box-shadow: none;
-}
-
-.text-Poppins-b {
-  font-family: "Poppins";
-  font-weight: 700;
-}
-
-.text-Poppins-m {
-  font-family: "Poppins";
-  font-weight: 500;
-}
-
-.text-Raleway {
-  font-family: "Raleway";
-  font-weight: 400;
-}
-
-.text-Raleway-b {
-  font-family: "Raleway";
-  font-weight: 700;
-}
-
-.text-futura-b {
-  font-family: "Futura Bold";
-  font-weight: 700;
 }
 
 .c-white {
@@ -185,6 +154,37 @@ button:active {
 
 .g-end-7 {
   grid-column-end: 7;
+}
+
+@font-face {
+  font-family: "Futura Bold";
+  src: url("/Futura Bold font.ttf") format("truetype");
+  font-style: 700;
+  font-weight: bold;
+}
+.text-Poppins-b {
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+.text-Poppins-m {
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.text-Raleway {
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+.text-Raleway-b {
+  font-family: "Raleway";
+  font-weight: 700;
+}
+
+.text-futura-b {
+  font-family: "Futura Bold";
+  font-weight: 700;
 }
 
 .contend {
